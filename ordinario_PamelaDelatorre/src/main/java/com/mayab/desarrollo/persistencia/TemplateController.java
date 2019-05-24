@@ -8,15 +8,15 @@ public class TemplateController {
         
         bases db = (DBA)base.createNotification("a");
         
-        db.update("Select From * WHEre basea = a");
+        db.update("Create table alumnos (nombre char(50)");
         
         db = (DBB) base.createNotification("b");
         
-        db.update("SeleCT FROM * baseb = B ");
+        db.update("Create table ALUMNOS (Nombre char(50)");
         
         db = (DBC) base.createNotification("c");
         
-        db.update("SeleCT FROM * BasEC= C");
+        db.update("Create table Alumnos (nombre char(50)");
         
     }
 }
